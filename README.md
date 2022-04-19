@@ -1,2 +1,2 @@
 # Gender-Debiasing-in-BERT-Model
-Final Project of EECS 487.
+This is the repo for the Final Project of EECS 487.
