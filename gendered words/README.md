@@ -35,16 +35,6 @@ The dataset is a JSON file, containing a single list of JSON objects, one per wo
 ]
 ```
 
-# Contributing
-
-1. [Fork](https://guides.github.com/activities/forking/) the [master repo](https://github.com/ecmonsen/gendered_words) and clone your fork.
-1. Using your favorite editor or IDE, make your changes.
-  1. Do not reformat the JSON. Preserve the format of one word per line. 
-  1. Add new words at the **end** of the file. 
-1. Commit and push changes to your fork.
-1. Create a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
-1. Maintainers of the master repo will review the pull request and accept or request changes.
-
 # How the dataset was created
 
 This dataset was initially created by dumping all of the hyponyms of the WordNet synset for "person". Each word was manually tagged as gender-neutral (`n`), male or masculine (`m`), female or feminine (`f`) or other (`o`) (only a few words such as "hermaphrodite" are tagged as "other").
